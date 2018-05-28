@@ -12,7 +12,7 @@ for i=1:nturns
 end
 pf=mean(I)
 mean_y=mean(y)
-std_y=std2(y)
+std_y=std(y)
 plot(x1,x2,'o')
 hold on;
 plot(y,x1-x2)
